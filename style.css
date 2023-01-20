@@ -35,12 +35,6 @@ header{
     background-color: rgba(0, 0, 0, 0.493);
 }
 
-@media (max-width: 767px) {
-    .main-box{
-        width: 50%;
-    }
-}
-
 .headertext{
     float: center;
     text-align: center;
@@ -63,8 +57,8 @@ main{
 }
 
 .Turan{
-    width: 511.5px;
-    height: 723.525px;
+    width: auto;
+    height: 100%;
 }
 
 .first-part{
@@ -84,9 +78,24 @@ main{
     align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .Turan{
         width: 100%;
         height: auto;
     }
+    .main-box{
+        width: 50%;
+        height: 15%;
+    }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main-box{
+        height: 20%;
+        padding: 15px;
+    }
+    .first-part{
+        height: 200vh;
+    }
+}
+
