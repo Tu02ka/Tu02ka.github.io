@@ -28,11 +28,17 @@ header{
     display: inline-block;
     position: relative;
     top: 37vh;
-    width: 250px;
-    height: 90px;
+    width: 30%;
+    height: 12%;
     line-height: 0.6;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.493);
+}
+
+@media (max-width: 767px) {
+    .main-box{
+        width: 50%;
+    }
 }
 
 .headertext{
@@ -76,4 +82,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 767px) {
+    .Turan{
+        width: 100%;
+        height: auto;
+    }
 }
